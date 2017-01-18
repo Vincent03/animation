@@ -1,0 +1,66 @@
+#boite{
+	background-image: url(cancer.png);
+	
+	width: 400px;
+	height: 400px;
+	-webkit-animation: redBox 5s infinite;
+	-moz-animation: redBox 5s infinite;
+	animation: redBox 5s infinite;
+	top:70px;
+	bottom:1px;
+	background-size: 400px;
+	position:relative;
+	z-index: 999;
+	
+	
+}
+
+@keyframes redBox {
+	0% {
+		left: 10px;
+	}
+	50% {
+		left: 1100px;
+
+		
+	}
+	90% {
+		left: 10px;
+		
+	}
+}
+
+
+h1{
+	font-size: 110px;
+	text-align: center;
+	font-family:'Bungee Shade', cursive;
+	z-index: 998;
+}
+
+
+body {animation-name: blinker;
+    animation-duration: 70ms;
+    animation-timing-function: linear;
+    animation-iteration-count: infinite;
+    
+
+}
+
+
+@keyframes blinker {  
+    0% { opacity: 1.0; }
+    50% { opacity: 0.0; }
+    100% { opacity: 1.0; }
+}
+
+
+
+
+
+
+
+
+
+
+
